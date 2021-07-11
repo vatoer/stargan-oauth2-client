@@ -2,9 +2,10 @@
     "name": "stargan/oauth2-client",
     "description": "oauth2 client for stargan user model",
     "type": "library",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.4",
-        "league/oauth2-client": "dev-master"
+        "league/oauth2-client": "^2.2"
     },
     "license": "MIT",
     "autoload": {
@@ -18,9 +19,9 @@
             "email": "vatoer.ckplus@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require-dev": {
-        "web-token/jwt-easy": "v2.1.x-dev",
+        "web-token/jwt-easy": "^v2.1",
         "web-token/jwt-signature-algorithm-rsa": "^2.2",
         "web-token/jwt-key-mgmt": "^2.2"
     }

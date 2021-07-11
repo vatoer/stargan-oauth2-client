@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8c68757755e5394e4a9c69e3b13d9ae",
+    "content-hash": "2c627b5aa351ee4c3e234e8c1dcaff4c",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
-            "version": "dev-master",
+            "version": "7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589"
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/de6f1e58e735754b888649495ed4cb9ae3b19589",
-                "reference": "de6f1e58e735754b888649495ed4cb9ae3b19589",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7008573787b430c1c1f650e3722d9bba59967628",
+                "reference": "7008573787b430c1c1f650e3722d9bba59967628",
                 "shasum": ""
             },
             "require": {
@@ -42,11 +42,10 @@
                 "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.4-dev"
+                    "dev-master": "7.3-dev"
                 }
             },
             "autoload": {
@@ -88,7 +87,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/master"
+                "source": "https://github.com/guzzle/guzzle/tree/7.3.0"
             },
             "funding": [
                 {
@@ -108,11 +107,11 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T14:07:59+00:00"
+            "time": "2021-03-23T11:33:13+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
@@ -130,7 +129,6 @@
             "require-dev": {
                 "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -168,7 +166,7 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -198,7 +196,6 @@
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -249,16 +246,16 @@
         },
         {
             "name": "league/oauth2-client",
-            "version": "dev-master",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "c1e2d288a10f28aeacd47b2d9e82e6b85fff524a"
+                "reference": "badb01e62383430706433191b82506b6df24ad98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/c1e2d288a10f28aeacd47b2d9e82e6b85fff524a",
-                "reference": "c1e2d288a10f28aeacd47b2d9e82e6b85fff524a",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/badb01e62383430706433191b82506b6df24ad98",
+                "reference": "badb01e62383430706433191b82506b6df24ad98",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +269,6 @@
                 "phpunit/phpunit": "^5.7 || ^6.0 || ^9.3",
                 "squizlabs/php_codesniffer": "^2.3 || ^3.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -314,9 +310,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-client/issues",
-                "source": "https://github.com/thephpleague/oauth2-client/tree/master"
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.6.0"
             },
-            "time": "2021-06-01T14:33:28+00:00"
+            "time": "2020-10-28T02:03:40+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -370,23 +366,22 @@
         },
         {
             "name": "psr/http-client",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
-                "reference": "22b2ef5687f43679481615605d7a15c557ce85b1"
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/22b2ef5687f43679481615605d7a15c557ce85b1",
-                "reference": "22b2ef5687f43679481615605d7a15c557ce85b1",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0 || ^8.0",
                 "psr/http-message": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -405,7 +400,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP clients",
@@ -419,27 +414,26 @@
             "support": {
                 "source": "https://github.com/php-fig/http-client/tree/master"
             },
-            "time": "2020-09-19T09:12:31+00:00"
+            "time": "2020-06-29T06:28:15+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "36fa03d50ff82abcae81860bdaf4ed9a1510c7cd"
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/36fa03d50ff82abcae81860bdaf4ed9a1510c7cd",
-                "reference": "36fa03d50ff82abcae81860bdaf4ed9a1510c7cd",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
                 "psr/http-message": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -458,7 +452,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for PSR-7 HTTP message factories",
@@ -475,26 +469,25 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory/tree/master"
             },
-            "time": "2020-09-17T16:52:55+00:00"
+            "time": "2019-04-30T12:38:16+00:00"
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
-                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -529,7 +522,7 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/master"
             },
-            "time": "2019-08-29T13:16:46+00:00"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -710,7 +703,7 @@
         },
         {
             "name": "spomky-labs/base64url",
-            "version": "v2.x-dev",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/base64url.git",
@@ -733,7 +726,6 @@
                 "phpstan/phpstan-phpunit": "^0.11|^0.12",
                 "phpstan/phpstan-strict-rules": "^0.11|^0.12"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -776,7 +768,7 @@
         },
         {
             "name": "web-token/jwt-checker",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-checker.git",
@@ -832,7 +824,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-checker/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-checker/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -844,7 +836,7 @@
         },
         {
             "name": "web-token/jwt-core",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-core.git",
@@ -908,7 +900,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-core/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-core/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -920,25 +912,22 @@
         },
         {
             "name": "web-token/jwt-easy",
-            "version": "v2.1.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-easy.git",
-                "reference": "9aa087db5995e02ccf157716943232fca47a9ab2"
+                "reference": "01db23252bb53d4fd36975b55dd58466bab1bb30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-easy/zipball/9aa087db5995e02ccf157716943232fca47a9ab2",
-                "reference": "9aa087db5995e02ccf157716943232fca47a9ab2",
+                "url": "https://api.github.com/repos/web-token/jwt-easy/zipball/01db23252bb53d4fd36975b55dd58466bab1bb30",
+                "reference": "01db23252bb53d4fd36975b55dd58466bab1bb30",
                 "shasum": ""
             },
             "require": {
                 "web-token/jwt-checker": "^2.1",
                 "web-token/jwt-encryption": "^2.1",
                 "web-token/jwt-signature": "^2.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.0"
             },
             "suggest": {
                 "web-token/jwt-encryption-algorithm-aescbc": "Adds AES-CBC based encryption algorithms",
@@ -955,17 +944,7 @@
                 "web-token/jwt-signature-algorithm-none": "Adds none signature algorithms",
                 "web-token/jwt-signature-algorithm-rsa": "Adds RSA based signature algorithms"
             },
-            "default-branch": true,
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "v1.0": "1.0.x-dev",
-                    "v1.1": "1.1.x-dev",
-                    "v1.2": "1.2.x-dev",
-                    "v1.3": "1.3.x-dev",
-                    "v2.0": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Jose\\Easy\\": ""
@@ -1006,7 +985,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-easy/tree/v2.1.9"
+                "source": "https://github.com/web-token/jwt-easy/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -1014,11 +993,11 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-29T20:21:59+00:00"
+            "time": "2021-03-17T14:55:52+00:00"
         },
         {
             "name": "web-token/jwt-encryption",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-encryption.git",
@@ -1085,7 +1064,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-encryption/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-encryption/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -1097,7 +1076,7 @@
         },
         {
             "name": "web-token/jwt-key-mgmt",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-key-mgmt.git",
@@ -1162,7 +1141,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-key-mgmt/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-key-mgmt/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -1174,7 +1153,7 @@
         },
         {
             "name": "web-token/jwt-signature",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-signature.git",
@@ -1238,7 +1217,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-signature/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-signature/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -1250,7 +1229,7 @@
         },
         {
             "name": "web-token/jwt-signature-algorithm-rsa",
-            "version": "v2.2.x-dev",
+            "version": "v2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-signature-algorithm-rsa.git",
@@ -1312,7 +1291,7 @@
                 "symfony"
             ],
             "support": {
-                "source": "https://github.com/web-token/jwt-signature-algorithm-rsa/tree/v2.2"
+                "source": "https://github.com/web-token/jwt-signature-algorithm-rsa/tree/v2.2.10"
             },
             "funding": [
                 {
@@ -1324,14 +1303,13 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "league/oauth2-client": 20,
-        "web-token/jwt-easy": 20
-    },
-    "prefer-stable": false,
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.4"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
 }

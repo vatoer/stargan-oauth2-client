@@ -1,0 +1,174 @@
+{
+    "@context": "/api/contexts/Users",
+    "@id": "/api/users/aa5b2d7f-fdfb-476e-aedf-a67269991d9a",
+    "@type": "Users",
+    "profiles": [
+      {
+        "@id": "/api/user_profiles/58b72811-00d3-4c84-ab03-2010997ac60c",
+        "@type": "UserProfiles",
+        "id": "58b72811-00d3-4c84-ab03-2010997ac60c",
+        "name": "profile shared",
+        "notes": "untuk profile umum",
+        "realm": {
+          "@id": "/api/realms/1a74ecf3-11f2-425f-a3a4-4d76ec869ac6",
+          "@type": "Realms",
+          "id": "1a74ecf3-11f2-425f-a3a4-4d76ec869ac6",
+          "name": "SHARED",
+          "fqdn": "profile.example.com"
+        }
+      },
+      {
+        "@id": "/api/user_profiles/884c5d86-56f7-4405-a10a-95cddcf68e73",
+        "@type": "UserProfiles",
+        "id": "884c5d86-56f7-4405-a10a-95cddcf68e73",
+        "name": "profile MYREALM",
+        "notes": "myapp",
+        "realm": {
+          "@id": "/api/realms/931b44ac-29e1-4d38-8d8a-b9ce28166e35",
+          "@type": "Realms",
+          "id": "931b44ac-29e1-4d38-8d8a-b9ce28166e35",
+          "name": "MYREALM",
+          "fqdn": "myapp.example.com"
+        }
+      }
+    ],
+    "roles": [
+      {
+        "@id": "/api/user_roles/1e8134fd-5992-4c07-8581-b023bfdeaa1c",
+        "@type": "UserRoles",
+        "id": "1e8134fd-5992-4c07-8581-b023bfdeaa1c",
+        "role": {
+          "@id": "/api/roles/d04f222e-1191-445d-be8a-0b9d679dae7e",
+          "@type": "Roles",
+          "id": "d04f222e-1191-445d-be8a-0b9d679dae7e",
+          "name": "myapp.admin.department",
+          "locked": "0",
+          "realm": {
+            "@id": "/api/realms/931b44ac-29e1-4d38-8d8a-b9ce28166e35",
+            "@type": "Realms",
+            "id": "931b44ac-29e1-4d38-8d8a-b9ce28166e35",
+            "name": "MYREALM",
+            "fqdn": "myapp.example.com"
+          },
+          "permissions": [
+            {
+              "@id": "/api/role_permissions/3e8b935e-62d5-4bdc-bbea-d27069c1e764",
+              "@type": "RolePermissions",
+              "permission": {
+                "@id": "/api/permissions/d2439ff7-67de-4aed-82ef-271cbba4585e",
+                "@type": "Permissions",
+                "name": "PERM_PAK_ALLOW_ALL",
+                "notes": "gensys",
+                "allowCreate": "1",
+                "allowRead": "1",
+                "allowUpdate": "1",
+                "allowDelete": "1",
+                "locked": "0",
+                "object": {
+                  "@id": "/api/object_targets/213f77fa-227f-46aa-9410-d18b678ac813",
+                  "@type": "ObjectTarget",
+                  "name": "pak",
+                  "locked": "0"
+                }
+              }
+            },
+            {
+              "@id": "/api/role_permissions/1822547a-9880-44dc-9dbe-cdadf59e2f45",
+              "@type": "RolePermissions",
+              "permission": {
+                "@id": "/api/permissions/1068d57d-e601-4217-8b67-98e60ee4eae7",
+                "@type": "Permissions",
+                "name": "PERM_DRAFT_PAK_ALLOW_ALL",
+                "notes": "gensys",
+                "allowCreate": "1",
+                "allowRead": "1",
+                "allowUpdate": "1",
+                "allowDelete": "1",
+                "locked": "0",
+                "object": {
+                  "@id": "/api/object_targets/976be24d-8c1b-44d6-a2ab-def0f018271f",
+                  "@type": "ObjectTarget",
+                  "name": "draft pak",
+                  "locked": "0"
+                }
+              }
+            },
+            {
+              "@id": "/api/role_permissions/6ecbdf97-2d14-46e9-a8f4-d2231bca3676",
+              "@type": "RolePermissions",
+              "permission": {
+                "@id": "/api/permissions/7d785f53-04c6-4f9d-b99d-70ccd195d57e",
+                "@type": "Permissions",
+                "name": "PERM_MYREALM_BASE_ALLOW_READ",
+                "notes": "gensys",
+                "allowCreate": "0",
+                "allowRead": "1",
+                "allowUpdate": "0",
+                "allowDelete": "0",
+                "locked": "0",
+                "object": {
+                  "@id": "/api/object_targets/6daffc34-0574-424b-a9cd-a9da507f1e3f",
+                  "@type": "ObjectTarget",
+                  "name": "MYREALM_BASE",
+                  "locked": "0"
+                }
+              }
+            },
+            {
+              "@id": "/api/role_permissions/14edadc7-532a-4287-a0e5-1acb29a55166",
+              "@type": "RolePermissions",
+              "permission": {
+                "@id": "/api/permissions/7cf17706-34dd-44e1-862b-59d10bcffe99",
+                "@type": "Permissions",
+                "name": "PERM_MENU_ALLOW_READ",
+                "notes": "gensys",
+                "allowCreate": "0",
+                "allowRead": "1",
+                "allowUpdate": "0",
+                "allowDelete": "0",
+                "locked": "0",
+                "object": {
+                  "@id": "/api/object_targets/21d7d582-67e4-43e3-b7e4-0b6cdcb92a6d",
+                  "@type": "ObjectTarget",
+                  "name": "menu",
+                  "locked": "0"
+                }
+              }
+            },
+            {
+              "@id": "/api/role_permissions/17e16f35-15a5-4ea4-9fff-9bba7ae5c5fd",
+              "@type": "RolePermissions",
+              "permission": {
+                "@id": "/api/permissions/3658fa0e-3176-479c-8219-30c47b684419",
+                "@type": "Permissions",
+                "name": "PERM_RESOURCE_ALLOW_ALL",
+                "notes": "gensys",
+                "allowCreate": "1",
+                "allowRead": "1",
+                "allowUpdate": "1",
+                "allowDelete": "1",
+                "locked": "0",
+                "object": {
+                  "@id": "/api/object_targets/10478a72-e675-4036-af5a-d1ad518134a6",
+                  "@type": "ObjectTarget",
+                  "name": "Resource",
+                  "locked": "0"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": "aa5b2d7f-fdfb-476e-aedf-a67269991d9a",
+    "email": "user@example.com",
+    "username": "user",
+    "loginType": "local",
+    "fullName": "user x",
+    "locked": "0",
+    "status": "0",
+    "metaDtCreate": "2020-06-04T15:09:29+00:00",
+    "metaDtUpdate": "2021-07-01T02:07:46+00:00",
+    "metaCreatedBy": "IMPORT",
+    "metaUpdatedBy": "IMPORT"
+  }
