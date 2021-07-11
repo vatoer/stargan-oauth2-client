@@ -72,12 +72,12 @@ class StarganUser implements StarganUserInterface
         return count($this->profiles);
     }
 
-
     public function extractProfile($account): ?array
     {
         foreach ($account['profiles'] as $key => $profile) {
             if (isset($profile["name"])) {
                 $name = $profile["name"];
+                $profile['user'] = (object)['username' => $account['username'] ]; 
                 $this->profiles[$name] = new Profile($profile);
             }
         }

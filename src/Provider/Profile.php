@@ -32,7 +32,7 @@ class Profile implements ProfileInterface
 
     private function _extractOptions(array $options)
     {
-        $this->_extractUser();
+        $this->_extractUser($options);
         $this->realm = isset($options['realm']) ? $options['realm'] : null; 
         if(isset($options['roles'])){
             $this->security = new Security($options['roles']);
@@ -44,7 +44,7 @@ class Profile implements ProfileInterface
      *
      * @return void
      */
-    private function _extractUser()
+    private function _extractUser($options)
     {
         if( !isset($options['user']) )
         {
