@@ -23,15 +23,15 @@ class Profile implements ProfileInterface
     protected $realm;
     protected $user;
     protected Security $security;
+    protected $options;
 
-    public function __construct(
-        protected array $options
-    ) {
+    public function __construct( array $options ) {
         $this->_extractOptions($options);
     }
 
     private function _extractOptions(array $options)
     {
+        $this->options = $options;
         $this->_extractUser($options);
         $this->realm = isset($options['realm']) ? $options['realm'] : null; 
         if(isset($options['roles'])){

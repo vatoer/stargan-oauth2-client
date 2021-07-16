@@ -6,9 +6,12 @@ use Exception;
 class Security implements SecurityInterface
 {
     private $targets;
-    public function __construct(
-        private array $options
-    ){}
+    private array $options;
+
+    public function __construct( array $options )
+    {
+        $this->options = $options;
+    }
 
     /**
      * roles should not overlap over other realm
