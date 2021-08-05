@@ -3,9 +3,9 @@
 /**
  * this file is part of Stargan oauth2 client
  * Stargan user profile
- * 
+ *
  * @author fathur rohman <fathur.rohman@Stargan.go.id>
- * 
+ *
  */
 
 namespace Stargan\OAuth2\Client\Provider;
@@ -44,7 +44,7 @@ class StarganUser implements StarganUserInterface
 
     /**
      * get profile
-     * batasan : 
+     * batasan :
      * ! TIDAK BOLEH ADA NAMA PROFIL YANG SAMA UNTUK SATU ORANG
      * ! HANYA ADA SATU REALM UNTUK SETIAP PROFILE YANG DITARIK DARI DB
      * @param string|null $name
@@ -59,7 +59,7 @@ class StarganUser implements StarganUserInterface
 
     public function getId()
     {
-        return 'id';
+        return $this->account['id'];
     }
 
     public function toArray()
@@ -77,7 +77,7 @@ class StarganUser implements StarganUserInterface
         foreach ($account['profiles'] as $key => $profile) {
             if (isset($profile["name"])) {
                 $name = $profile["name"];
-                $profile['user'] = (object)['username' => $account['username'] ]; 
+                $profile['user'] = (object)['username' => $account['username'] ];
                 $this->profiles[$name] = new Profile($profile);
             }
         }
